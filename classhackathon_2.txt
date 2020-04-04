@@ -1,7 +1,7 @@
 class crop_details: 
      def bargraph(self):
          import xlrd
-         loc = (r"C:\Users\Sravan\Downloads")
+         loc = (r"C:\Users\pranay\Downloads")
          wb = xlrd.open_workbook(loc)
          sheet = wb.sheet_by_index(0)
          sheet.cell_value(0, 0)
@@ -18,9 +18,9 @@ class crop_details:
          plt.title('Crop Production')  
          plt.show() 
      def yeardetails(self):
-         f=open(r"C:\Users\Madhurima\Downloads","w")
+         f=open(r"C:\Users\pranay\Downloads","w")
          import xlrd
-         loc = (r"C:\Users\Madhurima\Downloads")
+         loc = (r"C:\Users\pranay\Downloads")
          wb = xlrd.open_workbook(loc)
          sheet = wb.sheet_by_index(0)
          sheet.cell_value(0, 0)
